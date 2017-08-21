@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>proto_v.1.4</name>
+	<version>1.4</version>
+	<creationDate>7/27/2017</creationDate>
+	<author>Vladimir Pavlov</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<copyright>Copyright (C) 2005 - 2016 Open Source Matters, Inc. All rights reserved.</copyright>
+	<description>TPL_PROTO_XML_DESCRIPTION</description>
+	<files>
+		
+		
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+	<positions>
+        <position>debug</position>
+		<position>navigation</position>
+		<position>banner</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>top_menu</position>
+		<position>breadcrumbs</position>
+		<position>left_aside</position>
+		<position>central_column</position>
+		<position>right_aside</position>
+		<position>bottom-1</position>
+		<position>bottom-2</position>
+		<position>footer</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_proto1.4.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_proto1.4.sys.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_proto1.4.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_proto1.4.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+			
+
+				<field name="sitename"  type="text" default=""
+					label="JGLOBAL_TITLE"
+					description="JFIELD_ALT_PAGE_TITLE_LABEL"
+					filter="string" />
+
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>
