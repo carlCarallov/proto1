@@ -307,7 +307,7 @@ div.controls input:focus {
   box-shadow:0 0 8px rgba(13, 107, 171, .85);
 }
 #footer {
-    background: url(../images/footer_bg.jpg)repeat;
+    background: lime;
     min-height: 250px;
    
     margin-top: -20px;
